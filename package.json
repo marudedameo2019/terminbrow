@@ -1,0 +1,19 @@
+{
+  "name": "terminbrow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@lydell/node-pty": "^1.1.0",
+    "@xterm/addon-fit": "^0.10.0",
+    "express": "^5.1.0",
+    "ws": "^8.18.3",
+    "xterm": "^5.3.0"
+  }
+}

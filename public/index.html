@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Shell with xterm.js and node-pty</title>
+    <link rel="stylesheet" href="/node_modules/xterm/css/xterm.css" />
+    <style>
+        body { margin: 0; padding: 0; background-color: #000; }
+        #terminal-container { 
+            width: 100vw; 
+            height: 100vh; 
+            padding: 10px; 
+            box-sizing: border-box; 
+        }
+    </style>
+</head>
+<body>
+    <div id="terminal-container"></div>
+
+    <script src="/node_modules/xterm/lib/xterm.js" defer></script>
+    <script src="/node_modules/@xterm/addon-fit/lib/addon-fit.js" defer></script>
+    
+    <script src="client.js"></script>
+</body>
+</html>
